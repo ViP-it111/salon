@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="beauty-demo">
+    <file name="package.json"/>
+    <file name="vite.config.ts"/>
+    <file name="tsconfig.json"/>
+    <file name="tailwind.config.js"/>
+    <file name="postcss.config.js"/>
+    <file name="index.html"/>
+    <dir name="src">
+        <file name="main.tsx"/>
+        <file name="App.tsx"/>
+        <file name="index.css"/>
+        <file name="types.ts"/>
+        <file name="store.ts"/>
+        <file name="auth.ts"/>
+        <file name="seed.ts"/>
+        <file name="utils.ts"/>
+        <dir name="components">
+            <file name="Layout.tsx"/>
+            <file name="Modal.tsx"/>
+            <file name="UI.tsx"/>
+            <file name="AppointmentForm.tsx"/>
+        </dir>
+        <dir name="pages">
+            <file name="Login.tsx"/>
+            <file name="Schedule.tsx"/>
+            <file name="Clients.tsx"/>
+            <file name="Procedures.tsx"/>
+            <file name="Masters.tsx"/>
+            <file name="Reports.tsx"/>
+            <file name="Settings.tsx"/>
+        </dir>
+    </dir>
+</project>
