@@ -197,6 +197,8 @@ export function AppointmentForm({
             </div>
           )}
 
+
+
           <div className="grid grid-cols-2 gap-3">
             <Select label="Мастер" value={masterId} onChange={(e) =>  (e.target.value ? Number(e.target.value) : '')}>
               <option value="">— выберите —</option>
